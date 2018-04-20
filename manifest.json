@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+
+  "name": "GUI example",
+  "description": "Dieses Plugin ist ein GUI-Dummy für die Teilaufabe 1",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "CE_logo.png",
+    "default_popup": "popup.html",
+    "default_title": "Literatur Buddy"
+  },
+  "permissions": [
+    "activeTab",
+    "storage",
+    "tabs"
+  ]
+}
